@@ -9,6 +9,8 @@ Capabitities:
 4. Added a few query related chanincode to query range of keys, with and without pagination, getting history of an asset and support for rich queries
 5. With Fabric CA
 7. With nodejs sdk and REST apis related to chaincode transactional queires and invokes
+8. Using 'cid' go chaincode package for cid affiliated access to chaincode transactions
+Document https://godoc.org/github.com/hyperledger/fabric-chaincode-go/pkg/cid
 
 Instructions:
 1. Add the bin folder to the path
@@ -17,3 +19,5 @@ Instructions:
 4. cd airbusOrgApp
 5. run command: npm install
 6. import the 'part-tracer-apis.postman_collection.json' file into postman for running queries
+
+REST Status codes: https://www.restapitutorial.com/httpstatuscodes.html
